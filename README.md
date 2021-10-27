@@ -18,12 +18,14 @@
     46. Cada botón/icono realiza la acción que la describe
 
     Mejoras
-    
-    En la página principal de la aplicación hemos dado importancia a las 4-5 acciones que más puede realizar un usuario cuando abre la aplicación. Para ver las demás acciones, se tendrá que desplegar el menú que se encuentra arriba a la derecha.
+
+    En la página principal de la aplicación hemos dado importancia a las 4-5 acciones que más puede realizar un usuario cuando abre la aplicación. 
+    Para ver las demás acciones, se tendrá que desplegar el menú que se encuentra arriba a la derecha.
 
     El usuario podrá acceder a su cuenta en todo momento, esté en la página que esté haciendo click en su foto arriba a la derecha.
 
-    En la página de líneas le hemos dado toda la importancia al TIB, ya que es lo que más usan los usuarios en la aplicación. También tenemos un desplegable que muestra todas las demás opciones de líneas.
+    En la página de líneas le hemos dado toda la importancia al TIB, ya que es lo que más usan los usuarios en la aplicación. 
+    También tenemos un desplegable que muestra todas las demás opciones de líneas.
 
     En el momento en que le demos al botón de TIB, nos llevará a las líneas del tib y a los horarios de cada parada. 
     Que poder ver los horarios, primero de todo tendremos que seleccionar la línea y después seleccionar la parada de la línea.
