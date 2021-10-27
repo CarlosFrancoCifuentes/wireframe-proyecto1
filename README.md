@@ -7,6 +7,7 @@
 ### Móvil
 
     | Soluciones | Mejoras |
+    | -- | -- |
 
     | 12. Nos hemos basado en un diseño de cajas, muy intuitivo. | 
     | 21. No hemos puesto información irrelevante en las páginas principales de la aplicación |
