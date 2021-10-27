@@ -1,4 +1,4 @@
-## Wireframe Victor y Carlos
+# Wireframe Victor y Carlos
 
 ### https://balsamiq.cloud/siypnlg/pep2b9y
 
@@ -33,3 +33,8 @@ Que poder ver los horarios, primero de todo tendremos que seleccionar la línea 
 - Hemos añadido otro apartado en la página de líneas que nos permite ver el mapa, descargarlo y compartirlo.
 
 - A las noticias y alertas las hemos separado y le hemos puesto un scroll para ver desde las más recientes a las más antiguas.
+
+
+## Webgrafía
+
+No hemos observado ninguna página al respecto para crear los wireframe, ha sido todo pensado por nosotros.
