@@ -1,0 +1,32 @@
+.main {
+    display: grid;
+    grid-template-rows: 50px repeat(5, 1fr) 50px;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    grid-gap: 15px;
+    padding: 10px;
+}
+body {
+    min-height: 100vh;
+    margin: 0px;
+  }
+.card {
+    border: 2px black solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cardText {
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
