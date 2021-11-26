@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
     <title>TIB</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        //Load the HTML contents of the header into <header>
+          $("footer").load("./footer.html");
+      });
+    </script>
   </head>
   <body>
     <main class="main">
-      <div class="card" style="grid-row: 2">
-        <span class="cardText">Horarios de parada</span>
+      <div class="cardHorarios" style="grid-row: 2">
+        <span class="cardTextHorarios">Horarios de parada</span>
+        <input type='text'></input>
       </div>
       <div class="card" style="grid-row: 3">
         <span class="cardText">Líneas</span>
@@ -28,6 +37,7 @@
         <span class="cardText">Noticias alertas</span>
         <img src="./images/alerta.png" class="logo" />
       </div>
+      <footer style="grid-row: 7; height: 50px"> </footer>
     </main>
   </body>
 </html>
