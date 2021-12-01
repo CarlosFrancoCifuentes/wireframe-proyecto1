@@ -23,13 +23,11 @@
       <div class="cardHorarios" style="grid-row: 3; height: 150px; margin-top: 20px;">
         <span class="cardTextHorarios">TIB</span>
       </div>
-      <div class="card" style="grid-row: 4; height: 150px; margin-top: 20px;">
-        <button onClick="desplegarOtros()">
-            DESPLEGABLE
-        </button>
-        <span class="cardText">OTROS</span>
+      <a onClick="desplegarOtros()" class="card" style="grid-row: 4; height: 150px; margin-top: 20px;">
+                    
+        <span class="cardText" style="color: black;">OTROS</span>
         <img src="./images/lineas.png" width="43px" height="43px" />
-      </div>
+      </a>
       <div style="grid-row: 5; background-color: white; padding:0;" 
             id="desplegableOtros"></div>
       <footer style="grid-row: 7; height: 50px"> </footer>
@@ -41,8 +39,7 @@
         function desplegarOtros() {
           var desplegableLineas = document.getElementById("desplegableOtros");
           desplegableLineas.innerHTML =
-            "<div class='divDesplegableOtros' style='position: fixed;'>" +
-            "<p class='menuOtros' style='margin-top: 10px;'><a href='./areaPersonal.html'>AREA PERSONAL</a></p>" +
+            "<div class='divDesplegableOtros'>" +
             "<p class='menuOtros'><a href='./tren.html'>TREN</a></p>" +
             "<p class='menuOtros'><a href='http://www.emtpalma.cat/ca/inici'>EMT</a></p>" +
             "<p class='menuOtros'><a href='./metro.html'>METRO</a></p>" +
