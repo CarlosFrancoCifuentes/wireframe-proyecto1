@@ -8,7 +8,7 @@
 
 .usuario {
     display: flex;
-    justify-self: end;
+    justify-content: flex-end;
 }
 
 a {
