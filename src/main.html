@@ -12,11 +12,13 @@
       $(document).ready(() => {
         //Load the HTML contents of the header into <header>
           $("footer").load("./footer.html");
+          $("header").load("./header.html");
       });
     </script>
   </head>
   <body>
     <main class="main">
+      <header style="grid-row: 1; height: 50px"> </header>
       <div class="cardHorarios" style="grid-row: 2">
         <span class="cardTextHorarios">Horarios de parada</span>
         <input type='text'></input>
