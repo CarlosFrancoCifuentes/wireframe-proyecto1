@@ -1,0 +1,27 @@
+.tablaNotAle > table{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-items: center;
+    /* width: 100%; */
+    border-collapse: collapse;
+    flex-wrap: wrap;
+    /* margin: 5%; */
+    margin-top: 15%;
+}
+
+th, td {
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 5px;
+    width: 800px;
+}
+
+.tablaNotAle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5%;
+}
