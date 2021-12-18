@@ -1,0 +1,5 @@
+main {
+    display: grid;
+    grid-template-rows: 50px repeat(6, 1fr) 50px;
+    height: 100vh;
+}
