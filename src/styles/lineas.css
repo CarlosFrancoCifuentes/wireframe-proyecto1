@@ -1,3 +1,6 @@
+body{
+    margin:0
+}
 .main {
     display: grid;
     grid-template-rows: 50px 75px repeat(4, 1fr) 50px;
