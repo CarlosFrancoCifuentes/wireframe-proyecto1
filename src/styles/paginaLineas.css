@@ -1,0 +1,87 @@
+body {
+  min-height: 100vh;
+  margin: 0px;
+  background-image: url("../images/fondo2.jpg");
+}
+
+main {
+  display: grid;
+  grid-template-rows: 50px 35px 2fr 3fr 50px 50px;
+  grid-template-columns: 100%;
+  height: 100vh;
+  gap: 5px;
+}
+.lineas {
+  display: flex;
+  flex-direction: column;
+  grid-row: 3;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  border: 1px black solid;
+  box-sizing: border-box;
+}
+.linea {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  min-height: 55px;
+  align-items: center;
+  border-bottom: 1px black solid;
+  justify-content: center;
+  font-size: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(231, 231, 231, 1) 100%
+  );
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.buttonList {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 35px;
+  gap: 2px;
+}
+.buttonLinea {
+  height: 35px;
+  font-size: 18px;
+  background-color: gray;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.logo {
+  margin-left: 30px;
+  max-width: 50px;
+  max-height: 50px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
+}
+.listaParadas {
+  display: flex;
+  flex-direction: column;
+  grid-row: 3;
+  width: 100%;
+  overflow: scroll;
+  border: 1px black solid;
+  box-sizing: border-box;
+  margin: 0px 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(231, 231, 231, 1) 100%
+  );
+}
+.contenedor {
+  display: flex;
+  margin: 10px 0px 0px;
+}
