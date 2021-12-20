@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     /* margin: 5%; */
     margin-top: 15%;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 100%);
 }
 
 th, td {
