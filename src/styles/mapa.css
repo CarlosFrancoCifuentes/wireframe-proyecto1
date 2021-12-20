@@ -1,0 +1,10 @@
+.download {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px solid black;
+    justify-content: space-around;
+}
+
+.download > a {
+    align-self: center;
+}
