@@ -34,9 +34,9 @@ body {
   margin: 0px 10px;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(231, 231, 231, 1) 100%
-  );
+    rgba(255, 255, 255, 1) 40%,
+    rgb(245, 192, 192) 100%
+  );  
 }
 
 .flecha{

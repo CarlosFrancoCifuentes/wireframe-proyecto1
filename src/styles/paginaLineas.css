@@ -38,6 +38,15 @@ main {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+
+}
+
+.linea:hover{
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 188, 188) 100%
+  );  
 }
 .buttonList {
   display: flex;
