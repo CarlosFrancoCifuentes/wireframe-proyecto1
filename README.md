@@ -34,7 +34,7 @@ Que poder ver los horarios, primero de todo tendremos que seleccionar la línea 
 
 - A las noticias y alertas las hemos separado y le hemos puesto un scroll para ver desde las más recientes a las más antiguas.
 
-##Deploy en Netlify
+## Deploy en Netlify
 https://eloquent-engelbart-829e65.netlify.app/
 
 ## Webgrafía
