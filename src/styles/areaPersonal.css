@@ -1,5 +1,7 @@
 main {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 50px 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 50px;
   grid-template-rows: 50px repeat(6, 1fr) 50px;
   height: 100vh;
   gap: 20px;
@@ -15,10 +17,17 @@ body {
   max-height: 50px;
 }
 .title {
+  -ms-grid-row: 2;
   grid-row: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: Calibri, Trebuchet MS, sans-serif;
   font-size: 8vw;
 }
@@ -26,12 +35,29 @@ body {
 .card {
   border: 1px black solid;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 25px;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0px 20px;
   margin: 0px 10px;
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    color-stop(40%, rgba(255, 255, 255, 1)),
+    to(rgb(245, 192, 192))
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 40%,
+    rgb(245, 192, 192) 100%
+  );
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 40%,
